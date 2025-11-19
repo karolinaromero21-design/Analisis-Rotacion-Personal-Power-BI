@@ -1,0 +1,7 @@
+DAX Utilizadas
+1. Edad Promedio = AVERAGE('WA_Fn-UseC_-HR-Employee-Attrition'[Age])
+2. Salario Promedio = AVERAGE('WA_Fn-UseC_-HR-Employee-Attrition'[MonthlyIncome])
+3. Satisfaccion Promedio = AVERAGE('WA_Fn-UseC_-HR-Employee-Attrition'[JobSatisfaction])
+4. Tasa Rotacion = DIVIDE([Total Renuncias], [Total Empleados])
+5. Total Empleados = COUNTROWS('WA_Fn-UseC_-HR-Employee-Attrition')
+6. Total Renuncias = CALCULATE([Total Empleados], 'WA_Fn-UseC_-HR-Employee-Attrition'[TurnoverFlag] = 1)
