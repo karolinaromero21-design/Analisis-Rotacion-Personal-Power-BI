@@ -1,75 +1,52 @@
-Análisis de Rotación de Personal | Power BI
-
 📊 Descripción del proyecto
 
-Este proyecto presenta un dashboard interactivo en Power BI para analizar la rotación laboral y los factores asociados a la desvinculación del personal.
-Incluye indicadores clave, visualizaciones dinámicas y un modelo de datos optimizado para la toma de decisiones en Recursos Humanos.
+Este proyecto presenta un tablero interactivo en Power BI que permite analizar la rotación laboral y los factores que influyen en la desvinculación del personal. Incluye indicadores clave, visualizaciones dinámicas y un modelo de datos optimizado para facilitar la toma de decisiones en Recursos Humanos.
 
 🎯 Objetivos del análisis
 
-Identificar el nivel de rotación general de la empresa.
+- Identificar el nivel general de rotación en la empresa.
+- Evaluar qué departamentos tienen las tasas más altas de renuncias.
+- Analizar la relación entre la rotación, la antigüedad y las horas extra.
+- Medir la satisfacción laboral y su posible impacto.
+- Proporcionar insights prácticos para mejorar la retención del talento.
 
-Evaluar qué departamentos presentan mayores renuncias.
+🧠 Principales KPI incluidos
 
-Analizar la relación entre rotación, antigüedad y horas extra.
+- Total de empleados
+- Total de renuncias
+- Tasa de rotación (%)
+- Salario promedio
+- Satisfacción promedio
 
-Medir la satisfacción laboral y su impacto potencial.
+📈 Visualizaciones del tablero
 
-Ofrecer insights accionables para mejorar la retención del talento.
+El informe incluye los siguientes análisis:
 
-🧠 Principales KPIs incluidos
+- Rotación por antigüedad
+- Departamentos con mayor rotación
+- Impacto de las horas extra en las renuncias
+- Distribución por nivel salarial
 
-Total de empleados
-
-Total de renuncias
-
-Tasa de rotación (%)
-
-Salario promedio
-
-Satisfacción promedio
-
-📈 Visualizaciones del dashboard
-
-El reporte incluye los siguientes análisis:
-
-Rotación por antigüedad
-
-Departamentos con mayor rotación
-
-Impacto de horas extra en las renuncias
-
-Distribución por nivel salarial
-
-El diseño prioriza claridad, consistencia visual y lectura rápida de KPIs.
+El diseño se enfoca en la claridad, la consistencia visual y la rápida lectura de los KPI.
 
 🗂 Archivos incluidos en el repositorio
 
-Dashboard Analisis_rotacion_personal (archivo Power BI)
-
-Medidas DAX utilizadas (Archivo TXT)
-
-Dataset utilizado (CSV)
-
-Dataset limpio (XLSX)
-
-Este README explicativo
+- Panel Analisis_rotacion_personal (archivo Power BI)
+- Medidas DAX utilizadas (Archivo TXT)
+- Conjunto de datos utilizado (CSV)
+- Conjunto de datos limpio (XLSX)
+- Este README explicativo
 
 📂 Origen de los datos
 
-Los datos utilizados corresponden a un dataset público de Recursos Humanos disponible en Kaggle, comúnmente empleado para estudios de rotación laboral (HR Employee Attrition Dataset).
-
-Este dataset no contiene información real de personas; es completamente ficticio y diseñado para fines educativos y analíticos.
+Los datos utilizados provienen de un conjunto público de Recursos Humanos disponible en Kaggle, combinados con información de empleados para estudios sobre rotación laboral (HR Employee Attrition Dataset). Este conjunto de datos es completamente ficticio y se ha diseñado para fines educativos y analíticos.
 
 🔍 Principales insights obtenidos
 
-La rotación se concentra en empleados con poca antigüedad.
-
-El departamento de Research & Development presenta las mayores renuncias.
-
-Los empleados con horas extra muestran niveles más altos de rotación.
-
-La satisfacción laboral es relativamente baja, lo que sugiere oportunidades de mejora.
+- La rotación se concentra en empleados con poca antigüedad.
+- El departamento de Investigación y Desarrollo tiene las tasas más altas de renuncias.
+- Los empleados que hacen horas extra tienden a tener niveles más altos de rotación.
+- La satisfacción laboral es relativamente baja, lo que indica áreas de mejora.
 
 🧰 Tecnologías utilizadas
 
